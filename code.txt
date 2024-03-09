@@ -1,0 +1,34 @@
+-- CREATE DATABASE Assignment_6;
+USE Assignment_6;
+
+CREATE TABLE Employee_Table13(
+    id INT,
+    name VARCHAR(20),
+    occupation VARCHAR(20),
+    Salary INT,
+    leader_id INT
+);
+
+INSERT INTO Employee_Table13(id, name, occupation, Salary, leader_id)
+VALUES
+    (1, 'Abu Rayhan', 'Mechanical Engineer', 50000, 10), 
+    (2, 'Tarifa', 'Software Engineer', 60000, 11), 
+    (3, 'Ajij', 'Business Analyst', 70000, 12),
+    (4, 'Subreena', 'Web Developer', 60000, 13), 
+    (5, 'Hafsa', 'Graphics Designer', 50000, 14);
+    
+    
+    
+    -- SELECT * FROM Employee_Table13 LIMIT 3;
+
+    
+    -- SELECT * FROM Employee_Table11 WHERE NOT Salary > 55000;
+
+   -- SELECT * FROM Employee_Table1 WHERE occupation = 'Web Developer' OR occupation = 'Graphics Designer';
+    
+   -- SELECT * FROM Employee_Table9 WHERE Salary > 55000 AND occupation = 'Software Engineer';
+   -- SELECT * FROM Employee_Table8 ORDER BY Salary DESC;
+
+   -- SELECT * FROM Employee_Table7 WHERE Salary > 55000;
+    -- SELECT * FROM Employee_Table3;
+-- SELECT id, name, Salary FROM Employee_Table6;
